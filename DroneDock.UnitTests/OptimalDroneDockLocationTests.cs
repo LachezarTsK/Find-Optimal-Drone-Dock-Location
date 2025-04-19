@@ -66,14 +66,14 @@ namespace DroneDock.UnitTests
         private static readonly SurveyStatistics errorSurveyStatistics = new(ERROR, null, 0, 0, 0, 0, 0, null);
 
         private static readonly string FILE_PATH_COMPLETE_INPUT_COORDINATES_FIELDS_AND_BUILDINGS =
-            "C:\\Users\\ACER\\source\\repos\\DroneDock.UnitTests\\CompleteInput_Coordinates_Fields_and_Buildings.xlsx";
+                                                             "\\DroneDock.UnitTests\\CompleteInput_Coordinates_Fields_and_Buildings.xlsx";
         private static readonly string FILE_PATH_INPUT_COORDINATES_WHERE_NOT_ALL_FIELDS_ARE_REACHABLE =
-            "C:\\Users\\ACER\\source\\repos\\DroneDock.UnitTests\\Input_Coordinates_Where_Not_All_Fields_Are_Reachable.xlsx";
+                                                             "\\DroneDock.UnitTests\\Input_Coordinates_Where_Not_All_Fields_Are_Reachable.xlsx";
         private static readonly string FILE_PATH_INPUT_COORDINATES_ONLY_FOR_FIELDS =
-            "C:\\Users\\ACER\\source\\repos\\DroneDock.UnitTests\\Input_Coordinates_Only_For_Fields.xlsx";
+                                                              "\\DroneDock.UnitTests\\Input_Coordinates_Only_For_Fields.xlsx";
         private static readonly string FILE_PATH_INPUT_COORDINATES_ONLY_FOR_BUILDINGS =
-            "C:\\Users\\ACER\\source\\repos\\DroneDock.UnitTests\\Input_Coordinates_Only_For_Buildings.xlsx";
-        private static readonly string FILE_PATH_EMPTY_INPUT = "C:\\Users\\ACER\\source\\repos\\DroneDock.UnitTests\\Empty_Input.xlsx";
+                                                               "\\DroneDock.UnitTests\\Input_Coordinates_Only_For_Buildings.xlsx";
+        private static readonly string FILE_PATH_EMPTY_INPUT = "\\DroneDock.UnitTests\\Empty_Input.xlsx";
         private static readonly string FILE_PATH_NONEXISTENT = "\\NONEXISTENT_FILE_PATH";
 
 
