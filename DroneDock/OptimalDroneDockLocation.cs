@@ -43,8 +43,8 @@ namespace DroneDock
 
         private static readonly string NO_ERRORS = "";
         private static readonly string ERROR = "There is no input or the input is invalid!";
-        private static readonly string OUTPUT_COORDINATES_START_FROM_FIELD = "DroneDock\\Output_Coordinates_Start_From_Field.xlsx";
-        private static readonly string OUTPUT_COORDINATES_START_FROM_BUILDING = "DroneDock\\Output_Coordinates_Start_From_Building.xlsx";
+        private static readonly string OUTPUT_COORDINATES_START_FROM_FIELD = "\\DroneDock\\Output_Coordinates_Start_From_Field.xlsx";
+        private static readonly string OUTPUT_COORDINATES_START_FROM_BUILDING = "\\DroneDock\\Output_Coordinates_Start_From_Building.xlsx";
 
         private static readonly double FILED_SIDE_IN_METERS = 200;
         private static readonly double CHARGING_TIME_IN_MINUTES = 35;
@@ -711,7 +711,7 @@ public class Program
 {
     static void Main()
     {
-        string filePath = "DroneDock\\Input_Coordinates_Fields_and_Buildings.xlsx";
+        string filePath = "\\DroneDock\\Input_Coordinates_Fields_and_Buildings.xlsx";
         var droneDock = new DroneDock.OptimalDroneDockLocation(filePath);
         droneDock.PrintSurveyStatistics();
     }
