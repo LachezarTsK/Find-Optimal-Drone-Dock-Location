@@ -3,7 +3,7 @@ Tag: Graph, Design, Input Stream, Output Stream, Math, Data Visualization, GPS c
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Project Information: Contains the task description and a summary of the implementation.
+- Project Information: Contains the task description and a summary of the implementation.
 
 DroneDock: Contains the source code and the applied resources in the application.
 
